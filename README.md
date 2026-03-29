@@ -22,9 +22,3 @@ O site representa a landing page de uma escola de idiomas online, apresentando o
 - **Depoimentos** — Carrossel com depoimentos de alunos
 - **Mais Sobre** — Informações sobre aprendizagem e canais de atendimento
 - **Contato** — Links para Instagram, WhatsApp e e-mail
-
----
-
-## 🔗 Links
-
--  Repositório original: [hudson12345/Projeto_TCM01](https://github.com/hudson12345/Projeto_TCM01)
