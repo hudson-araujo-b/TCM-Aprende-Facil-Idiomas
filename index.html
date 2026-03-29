@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>AFI</title>
+</head>
+<body>
+    <header>
+        <img src="./src/assets/img/logo.png" alt="Logo">
+        <button class="menu-hamburguer" id="menuHamburguer">☰</button>
+        <nav id="menuNav">
+            <ul>
+                <li><a href="#Inicio">Início</a></li>
+                <li><a href="#Cursos">Cursos</a></li>
+                <li><a href="#Vantagens">Vantagens</a></li>
+                <li><a href="#Depoimentos">Depoimentos</a></li>
+                <li><a href="#Sobre">Mais Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Inicio">
+            <div id="dados">
+                <h1>Aprenda idiomas de forma <br> fácil e rápida</h1>
+                <p>Nosso serviço consiste em cursos<br>online de diversos idiomas.</p>
+                <form>
+                    <input type="text" placeholder="Digite seu nome" maxlength="50" required />
+                    <input type="email" placeholder="Digite seu e-mail" maxlength="60" required />
+                    <input type="tel" placeholder="11 95684-5625" maxlength="14" required />
+                    <input type="submit" value="Comece já →" />
+                </form>
+            </div>
+            <img src="./src/assets/img/bandeiras.png" alt="Bandeiras de países" class="flags">
+        </section>
+
+        <section id="Cursos">
+            <h2>Cursos Disponíveis</h2>
+            <div id="texto">
+                <p>Idiomas para <strong>todos</strong> os níveis <br>
+                Metodologia dinâmica e <strong>100% online</strong></p>
+            </div>
+            <div id="cards">
+                <div class="card">
+                    <img src="./src/assets/img/espanha.svg" alt="Bandeira da Espanha" />
+                    <h3>Espanhol</h3>
+                    <p>Idioma quente e cheio de vida</p>
+                </div>
+                <div class="card">
+                    <img src="./src/assets/img/estados-unidos.webp" alt="Bandeira dos EUA" />
+                    <h3>Inglês</h3>
+                    <p>Fale o idioma mais falado do mundo</p>
+                </div>
+                <div class="card">
+                    <img src="./src/assets/img/frança.png" alt="Bandeira da França" />
+                    <h3>Francês</h3>
+                    <p>O idioma da arte, moda e cultura</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="Vantagens">
+            <h2>Vantagens</h2>
+            <div id="vantagens-container">
+                <div class="vantagem-item">
+                    <img src="https://img.icons8.com/ios-filled/50/ff0000/clock--v1.png" alt="Relogio">
+                    <p>Aulas curtas<br>e práticas</p>
+                </div>
+                <div class="vantagem-item">
+                    <img src="https://img.icons8.com/ios-filled/50/ff0000/training.png" alt="Professor">
+                    <p>Professores<br>nativos</p>
+                </div>
+                <div class="vantagem-item">
+                    <img src="https://img.icons8.com/ios-filled/50/ff0000/certificate.png" alt="Certificado">
+                    <p>Certificado<br>gratuito</p>
+                </div>
+                <div class="vantagem-item">
+                    <img src="https://img.icons8.com/ios-filled/50/ff0000/open-book--v1.png" alt="Livro">
+                    <p>Acesso vitalício<br>aos materiais</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="Depoimentos">
+            <h2>Depoimentos</h2>
+            <p>Veja o que nossos alunos dizem a seguir</p>
+            <div class="carrossel">
+                <div id="dep1" class="grupo">
+                    <div class="depoimento">
+                        <h3>Caio</h3>
+                        <img src="./src/assets/img/caio.jpg" alt="Caio" />
+                        <p>Por conta desse curso eu pude melhorar os meus trabalhos da faculdade</p>
+                    </div>
+                    <div class="depoimento">
+                        <h3>Bruno</h3>
+                        <img src="./src/assets/img/bruno.jpg" alt="Bruno" />
+                        <p>Esse curso me ajudou a abrir várias portas para a minha vida</p>
+                    </div>
+                    <div class="depoimento">
+                        <h3>David</h3>
+                        <img src="./src/assets/img/david.jpg" alt="David" />
+                        <p>Após conhecer esse curso, consegui buscar novas ideias e pensamentos</p>
+                    </div>
+                </div>
+                <div id="dep2" class="grupo" style="display: none;">
+                    <div class="depoimento">
+                        <h3>Guilherme</h3>
+                        <img src="./src/assets/img/costa.jpeg" alt="Costa" />
+                        <p>Esse curso me ajudou a aprender de forma mais prática e divertida</p>
+                    </div>
+                    <div class="depoimento">
+                        <h3>Gustavo</h3>
+                        <img src="./src/assets/img/gustavo.jpeg" alt="Gustavo" />
+                        <p>Graças ao curso eu consegui um emprego no exterior</p>
+                    </div>
+                    <div class="depoimento">
+                        <h3>Hudson</h3>
+                        <img src="./src/assets/img/hudson.png" alt="Hudson" />
+                        <p>Foi essencial para meu desenvolvimento pessoal e acadêmico</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Sobre">
+            <div class="info-container">
+                <div id="img-esquerda">
+                    <img src="./src/assets/img/logo.png" alt="Logo">
+                </div>
+                <div class="info-texto">
+                    <h3>Aprendizagem</h3>
+                    <ul>
+                        <li>Cursos de Idiomas presenciais</li>
+                        <li>Curso de idiomas Online</li>
+                        <li>Teste de Inglês</li>
+                    </ul>
+                </div>
+                <div class="info-texto">
+                    <h3>Dúvidas</h3>
+                    <ul>
+                        <li>Contato e Trabalhe Conosco</li>
+                        <li>Perguntas Frequentes</li>
+                        <li>Nossas vantagens</li>
+                    </ul>
+                </div>
+                <div id="img-direita">
+                    <img src="./src/assets/img/escrever.png" alt="Escrever">
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h3>Redes Sociais e Contato</h3>
+            <div class="icones">
+                <a href="https://www.instagram.com/aprendefacil.idms/"><img src="https://img.icons8.com/ios/50/fa314a/instagram-new--v1.png" alt="Instagram"></a>
+                <a href="https://w.app/wqvdbm"><img src="https://img.icons8.com/ios/50/fa314a/whatsapp--v1.png" alt="WhatsApp"></a>
+                <a href="mailto:aprendefacilidiomas5@gmail.com"><img src="https://img.icons8.com/ios/50/fa314a/new-post--v1.png" alt="Email"></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Aprende Fácil Idiomas Todos os direitos reservados</p>
+        <a href="#Inicio"><img src="./src/assets/img/seta.webp" alt="Voltar ao topo"></a>
+    </footer>
+
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
