@@ -22,3 +22,17 @@ O site representa a landing page de uma escola de idiomas online, apresentando o
 - **Depoimentos** — Carrossel com depoimentos de alunos
 - **Mais Sobre** — Informações sobre aprendizagem e canais de atendimento
 - **Contato** — Links para Instagram, WhatsApp e e-mail
+
+---
+
+##  Equipe
+ 
+| Nome | Função |
+|---|---|
+| Caio José | Designer, Full-stack |
+| Guilherme Costa | Designer |
+| Gustavo Oliveira | Analista Back-end |
+| Hudson Araújo | Analista Front-end |
+| Bruno Boni | Designer |
+ 
+
