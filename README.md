@@ -1,8 +1,8 @@
 #  Aprende Fácil Idiomas — Site Institucional
 
-## [Site](https://hudson-araujo-b.github.io/TCM-Aprende-Facil-Idiomas/)
+## [Aprende-Facil-Idiomas](https://hudson-araujo-b.github.io/TCM-Aprende-Facil-Idiomas/)
 
-Site institucional da **Aprende Fácil Idiomas (AFI)**, plataforma fictícia de cursos online de idiomas desenvolvida como Trabalho de Conclusão de Módulo (TCM).
+Site institucional da **Aprende Fácil Idiomas**, plataforma fictícia de cursos online de idiomas desenvolvida como Trabalho de Conclusão de Módulo (TCM).
 
 >  Este repositório é uma migração do repositório original: [hudson12345/Projeto_TCM01](https://github.com/hudson12345/Projeto_TCM01)
 
@@ -10,7 +10,7 @@ Site institucional da **Aprende Fácil Idiomas (AFI)**, plataforma fictícia de 
 
 ##  Sobre o Projeto
 
-O site representa a landing page de uma escola de idiomas online, apresentando os cursos disponíveis, vantagens da plataforma, depoimentos de alunos e formas de contato. O objetivo do TCM foi aplicar conceitos de desenvolvimento web com HTML, CSS e JavaScript na criação de uma página responsiva e funcional.
+Site promocional de uma escola de idiomas online. O objetivo desse projeto é aplicar conceitos de desenvolvimento web com HTML, CSS e JavaScript na criação de uma página responsiva e funcional em demandas que seriam reais.
 
 ---
 
