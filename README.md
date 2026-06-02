@@ -1,4 +1,4 @@
-#  Aprende Fácil Idiomas — Site Institucional
+#  Aprende Fácil Idiomas
 
 ## [Aprende-Facil-Idiomas](https://hudson-araujo-b.github.io/TCM-Aprende-Facil-Idiomas/)
 
